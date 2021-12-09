@@ -1,0 +1,70 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background-color: rgba(17, 2, 2, 0.103);
+}
+
+a.nav-link{
+    color: black;
+}
+
+
+#ribbon{
+    background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.5)
+    
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+#imagendiseño{
+    background-color: red;
+    background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+    
+
+}
+
+#imagenes{
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+}
+
+
+
+.img.card-img-top{
+    width: 100%;
+}
+
+.car-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
